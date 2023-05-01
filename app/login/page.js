@@ -36,7 +36,7 @@ const Login = () => {
             <h1 className="mb-4">Login</h1>
             <div className="form-outline mb-4">
               <label className="form-label" htmlFor="email_field">
-                Email address
+                Your E-mail Id
               </label>
               <input
                 type="email"
@@ -49,7 +49,7 @@ const Login = () => {
 
             <div className="form-outline mb-4">
               <label className="form-label" htmlFor="password_field">
-                Password
+                Your Password
               </label>
               <input
                 type="password"
@@ -69,7 +69,7 @@ const Login = () => {
 
             <div className="text-center">
               <p>
-                Not a member? <Link href="/register">Register</Link>
+                Don't have an account? <Link href="/register">Sign Up</Link>
               </p>
             </div>
           </form>

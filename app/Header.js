@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container">
         <div className="col-3 p-0">
           <a className="navbar-brand" style={{ marginLeft: "20px" }} href="#">
-            Next.13 Authentication
+            Dharaneesh's Next App
           </a>
         </div>
 

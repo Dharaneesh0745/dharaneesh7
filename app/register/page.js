@@ -32,24 +32,11 @@ const Register = () => {
             className="border border-secondary rounded p-4"
             onSubmit={submitHandler}
           >
-            <h1 className="mb-4">Register</h1>
-
-            <div className="form-outline mb-4">
-              <label className="form-label" htmlFor="name_field">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name_field"
-                className="form-control"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-              />
-            </div>
+            <h1 className="mb-4">Sign Up</h1>
 
             <div className="form-outline mb-4">
               <label className="form-label" htmlFor="email_field">
-                Email address
+                Your E-mail Id
               </label>
               <input
                 type="email"
@@ -62,7 +49,7 @@ const Register = () => {
 
             <div className="form-outline mb-4">
               <label className="form-label" htmlFor="password_field">
-                Password
+                Your Password
               </label>
               <input
                 type="password"
@@ -77,7 +64,7 @@ const Register = () => {
               type="submit"
               className="btn btn-block w-100 btn-primary btn-block mb-4"
             >
-              Register
+              Sign Up
             </button>
           </form>
         </div>
