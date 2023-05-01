@@ -4,16 +4,14 @@ import axios from "axios";
 import React, { useState } from "react";
 
 const Register = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("dharaneesh0745@gmail.com");
+  const [password, setPassword] = useState("12345");
 
   const submitHandler = async (e) => {
     e.preventDefault();
 
     try {
       const { data } = await axios.post("/api/register", {
-        name,
         email,
         password,
       });
@@ -74,3 +72,4 @@ const Register = () => {
 };
 
 export default Register;
+

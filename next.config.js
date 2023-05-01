@@ -4,7 +4,7 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  env: {
+  env: { 
     DB_URI: "mongodb://localhost:27017/next13-auth",
     NEXTAUTH_SECRET: "codingwithabbas",
   },

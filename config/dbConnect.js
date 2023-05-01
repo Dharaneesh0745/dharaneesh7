@@ -1,4 +1,4 @@
-import mongoose, { mongo } from "mongoose";
+import mongoose from "mongoose";
 
 const dbConnect = () => {
   if (mongoose.connection.readyState >= 1) return;

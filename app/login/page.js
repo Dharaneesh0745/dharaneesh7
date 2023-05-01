@@ -60,19 +60,19 @@ const Login = () => {
               />
             </div>
 
+            <div className="text-center">
+              <p>
+                Don't have an account? <Link href="/register">Sign Up</Link>
+              </p>
+            </div> 
+          </form>
+          <a href="https://www.w3schools.com/">
             <button
               type="submit"
               className="btn btn-block w-100 btn-primary btn-block mb-4"
             >
               Sign in
-            </button>
-
-            <div className="text-center">
-              <p>
-                Don't have an account? <Link href="/register">Sign Up</Link>
-              </p>
-            </div>
-          </form>
+            </button>  </a>
         </div>
       </div>
     </div>
