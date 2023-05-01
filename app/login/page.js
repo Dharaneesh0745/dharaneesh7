@@ -6,8 +6,8 @@ import React, { useState } from "react";
 import { signIn } from "next-auth/react";
 
 const Login = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("dharaneesh0745@gmail.com");
+  const [password, setPassword] = useState("12345");
 
   const submitHandler = async (e) => {
     e.preventDefault();
